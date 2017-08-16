@@ -1,0 +1,14 @@
+[07-Aug-2017 07:35:58 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/fly/core/classes/ezdb/ezdb_mysql.class.php:98
+Stack trace:
+#0 /var/www/fly/core/classes/ezdb/ezdb.class.php(195): ezDB_mysql->connect('root', 'd5r9n5zamxadpte...', 'localhost')
+#1 /var/www/fly/core/codon.config.php(113): DB::connect('root', 'd5r9n5zamxadpte...', 'phpvms', 'localhost')
+#2 /var/www/fly/admin/maintenance.php(25): include('/var/www/fly/co...')
+#3 {main}
+  thrown in /var/www/fly/core/classes/ezdb/ezdb_mysql.class.php on line 98
+[14-Aug-2017 05:00:02 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/fly/core/classes/ezdb/ezdb_mysql.class.php:98
+Stack trace:
+#0 /var/www/fly/core/classes/ezdb/ezdb.class.php(195): ezDB_mysql->connect('root', 'd5r9n5zamxadpte...', 'localhost')
+#1 /var/www/fly/core/codon.config.php(113): DB::connect('root', 'd5r9n5zamxadpte...', 'phpvms', 'localhost')
+#2 /var/www/fly/admin/maintenance.php(25): include('/var/www/fly/co...')
+#3 {main}
+  thrown in /var/www/fly/core/classes/ezdb/ezdb_mysql.class.php on line 98
